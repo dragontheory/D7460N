@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/agencyfb-2');
+
+
+/* RESET ---------------------------------- */
+*:before, *:after, *, ::after, ::before {box-sizing: border-box;}
+body {padding: 0; margin: 0;}
+
+
+/* DEFAULT ---------------------------------- */
+:root {
+	/* Layout | Vertical */
+  --app-container-grid-template-rows: 
+     auto auto 1fr minmax(1rem, 7rem) minmax(1rem, 7rem);
+  --nav-justify-content: start;
+  --nav-border-radius: .25rem .25rem 0 0;
+  --main-margin-block: -1rem 0;
+  --main-margin-inline: 0 0;
+  --tab-grid-auto-flow: column;
+  --sub-header-display: none;
+  --grid-gap: 1rem;
+	
+	/* Theme | Dark */
+  --bg: 19,20,23,1.0;
+  --bg-02: 39,49,54,1.0;
+  --bg-panel: 255,255,255,0.05;
+  --bg-active: 255,255,255,0.05;
+  --bg-accent: 48,190,255,0.5;
+  --bg-grd: linear-gradient(180deg, 
+	        rgba(50,70,80,0.9) 0, 
+            #0d101b 100%);
+  --txt-color: 255,255,255,0.7;
+  --txt-active: 255,255,255,1.0;
+  --txt-muted: 255,255,255,0.5;
+  --txt-shadow: -1px 1px rgba(0,0,0,1.0);
+}
+
+
+/* ALT ---------------------------------- */
+
+/* Layout | Horizontal */
+:root:has(#toggleLayout:checked) {
+  --app-container-grid-template-columns: 10rem 1fr 12rem;
+  --app-container-grid-template-rows: auto 1fr 1fr auto;
+  --nav-border-radius: .25rem 0 0 .25rem;
+  --nav-justify-content: auto;
+  --main-margin-inline: -1rem 0;
+  --main-margin-block: 0 0;
+  --main-resize-h: horizontal;
+  --aside-resize-v: vertical;
+  --tab-grid-auto-flow: row;
+  --sub-header-display: grid;
+  --grid-row-span: span 2;
+}
+
+/* Theme | Light */
+:root:has(#toggleTheme:checked) {
+  --bg: 0,0,0,0.8;
+  --bg-02: 0,0,0,0.5;
+  --bg-panel: 255,255,255,0.2;
+  --bg-active: 255,255,255,0.2;
+  --bg-grd: linear-gradient(180deg, 
+            rgba(255,255,255,0.7) 0, 
+            rgba(255,255,255,0.4) 100%);
+  --txt-color: 0,0,0,1.0;
+  --txt-active: 0,0,0,1.0;
+  --txt-muted: 0,0,0,0.5;
+  --txt-shadow: -1px 1px 0 rgba(255,255,255,0.3);
+}
+
+
+/* SCAFFOLDING ---------------------------------- */
+
+/* WRAPPER */
+app-container {
+  display: grid;
+  grid-template-rows: var(--app-container-grid-template-rows);
+  grid-template-columns: var(--app-container-grid-template-columns);
+  gap: var(--grid-gap);
+  padding: 1rem;
+  height: 100vh; /* push HEADER/FOOTER to the top/bottom of viewport */
+  overflow: hidden;
+}
+
+/* ALL PANELS */
+app-container > * {
+  display: grid;
+  background-color: rgba(var(--bg-panel));
+  border-radius: .3rem;
+  overflow: hidden;
+  align-content: start;
+}
+
+
+/* NAV ---------------------------------- */
+nav:has(#radio01:checked) ~ main #tab01,
+nav:has(#radio02:checked) ~ main #tab02,
+nav:has(#radio03:checked) ~ main #tab03,
+nav:has(#radio04:checked) ~ main #tab04,
+nav:has(#radio05:checked) ~ main #tab05 {display: grid;}
+
+nav {
+  background-color: transparent !important;
+  justify-content: var(--nav-justify-content);
+}
+
+nav > panel-list {grid-auto-flow: var(--tab-grid-auto-flow)}
+
+nav label {border-radius: var(--nav-border-radius);}
+
+nav, main {grid-row: var(--grid-row-span);}
+
+app-logo,
+powered-by,
+app-version,
+demo-buttons,
+:where(nav, main, aside, aside-2) header {padding: 1rem;}
+
+
+/* MAIN ---------------------------------- */
+main {
+  margin-block: var(--main-margin-block);
+  margin-inline: var(--main-margin-inline);
+  /* ize: var(--main-resize-h); */
+}
+
+
+/* ASIDE ---------------------------------- */
+/* aside {resize: var(--aside-resize-v);} */
+
+
+/* HEADER/FOOTER ---------------------------------- */
+app-container > header, 
+app-container > footer {grid-column: 1 / -1;}
+
+
+/* SUB EADER ---------------------------------- */
+nav header,
+aside header,
+aside-2 header {display: var(--sub-header-display);}
+
+
+/* AUTO COLUMNS ---------------------------------- */
+
+/* 0 or 1 Child [ Default ] */
+label, list-item, header, footer {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+/* 2 Children */
+:where(label, list-item, header):has(> 
+:last-child:nth-child(2)) {
+  grid-template-columns: auto 1fr;
+}
+
+/* 2 Children [ Exception ] */
+footer {grid-template-columns: 1fr auto;}
+
+/* 3 Children */
+:where(label, list-item, header, footer):has(> 
+:last-child:nth-child(3)) {
+  grid-template-columns: 1fr auto auto;
+}
+
+/* 4 Children */
+:where(label, list-item, header, footer):has(> 
+:last-child:nth-child(4)) {
+  grid-template-columns: auto 1fr auto auto;
+}
+
+
+/* LABEL ---------------------------------- */
+label:hover,
+label:has(> input:checked) {
+  background-color: rgba(var(--bg-active));
+  color: rgba(var(--txt-active));
+}
+
+
+/* TABS ---------------------------------- */
+panel-tab {
+  overflow: hidden;
+  display: none;
+}
+
+
+/* LOW LEVEL ELEMENTS ---------------------------------- */
+
+/* Scrollable */
+panel-list {
+  display: grid;
+  overflow: auto;
+}
+
+list-cell {padding: .5rem 1rem;}
+
+p {padding: 0 1rem;}
+
+meta-data {
+  font-size: 0.8rem;
+  opacity: 0.5;
+  font-stretch: 100;
+  font-style: italic;
+  letter-spacing: 0.04rem;
+}
+
+input {
+  display: none;
+  accent-color: rgba(var(--accent));
+}
+
+
+/* LOOK/FEEL ---------------------------------- */
+body {
+  background-color: rgba(var(--bg));
+  color: rgba(var(--txt-color));
+  font-family: 'Oxanium', sans-serif;
+  font-size: 1rem;
+  text-shadow: var(--txt-shadow);
+}
+html:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  z-index: -5;
+  background: var(--bg-grd);
+}
+body:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background-attachment: initial;
+  background-color: transparent;
+  background-image: url('https://d7460n-app-with-resizer.pages.dev/assets/images/pattern.png');
+  background-size: 4.6875rem;
+  background-repeat: repeat;
+  z-index: -5;
+}
+html:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -10;
+  height: 100vh;
+  background-color: rgba(var(--bg-02));
+  background-image: url('https://d7460n-app-with-resizer.pages.dev/assets/images/logo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: inherit;
+  /* background-size: cover; */
+  background-size: 75% 75%;
+}
+
+
+/* SCROLLBARS ---------------------------------- */
+  *::-webkit-scrollbar {display: block; width: 1rem;}
+  *::-webkit-scrollbar-button {display: none;}
+  *::-webkit-scrollbar-track {background-color: rgba(48,190,255,0.0);}
+  *::-webkit-scrollbar-track-piece {background-color: rgba(48,190,255,0.0);}
+  * {--scrollbar-color: rgba(48,190,255,0.0);}
+  *:hover, *:focus, *:focus-within {--scrollbar-color: rgba(var(--bg-accent)) !important;}
+  *::-webkit-scrollbar-thumb {
+    background-color: rgba(48,190,255,0.0);
+    border: 5px solid transparent;
+    border-radius: 1.5rem;
+    box-shadow: 0.25rem 0 0 0.25rem var(--scrollbar-color) inset;
+  }
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scrollbar-color);
+    border: 0 solid transparent;
+    box-shadow: none;
+  }
+
+  /* FIREFOX */
+  /* Target elements, not :root{} */
+  /* https://codeconvey.com/custom-scrollbar-css-for-all-browsers/ */
+  panel-list {
+    scrollbar-color: rgba(48,190,255,0.0) rgba(48,190,255,0.0); /* Thumb and track color */
+    scrollbar-width: thin; /* Track width */
+  }
+  panel-list:hover {scrollbar-color: rgba(48,190,255,0.3) rgba(48,190,255,0.0);}
