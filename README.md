@@ -1,25 +1,3 @@
-#foo {color: red}
-<style>
- ol {
-   list-style: none;
-   counter-reset: item;
- }
- li {
-   counter-increment: item;
-   margin-bottom: 5px;
- }
- li:before {
-   margin-right: 10px;
-   content: counter(item);
-   background: lightblue;
-   border-radius: 100%;
-   color: white;
-   width: 1.2em;
-   text-align: center;
-   display: inline-block;
- }
- </style>
-
 <h1 align="center"><img src="assets/images/logo.svg" width="50%" /></h1>
 
 ```
