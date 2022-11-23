@@ -55,7 +55,7 @@
   </li>
 </ul>
 
-<h2 align="right">Governing Principles //</h2>
+<h2 align="right">Governing Principles ///</h2>
 
 <ul>
  <li>Minimal clean professional look/feel</li>
