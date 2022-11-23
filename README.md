@@ -1,6 +1,6 @@
 <div align="center"><img src="assets/images/logo.svg" width="50%" / title="D7460N UI" alt="D7460N UI" /></div>
 
-<h3 align="center"><i>Your data your way // Fast &#8226; Easy &#8226; Secure</i></h3>
+<h3 align="center"><i>Your data your way. &#160;&#160;&#9136;&#9136;&#160;&#160; Fast &#8226; Easy &#8226; Secure</i></h3>
 
 <p>&#160;</p>
 
