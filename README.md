@@ -4,11 +4,11 @@
 
 <p>&#160;</p>
 
-<h1 align="right">Features //</h1>
+<h1 align="right">&#8260;&#8260; Features</h1>
  
 <p>&#160;</p>
 
-<h2 align="right">End-users //</h2>
+<h2 align="right">&#8260;&#8260; End-users</h2>
 
 <ul>
   <li>Professional/minimal look/feel</li>
@@ -23,7 +23,7 @@
   <li>Optional full screen/Zen mode</li> 
 </ul>
 
-<h2 align="right">Developers //</h2>
+<h2 align="right">&#8260;&#8260; Developers</h2>
 
 <ul>
   <li>Pure CSS UI Template</li>
@@ -53,7 +53,7 @@
   </li>
 </ul>
 
-<h2 align="right">Governing Principles //</h2>
+<h2 align="right">&#8260;&#8260; Governing Principles</h2>
 
 <ul>
  <li>Minimal clean professional look/feel</li>
