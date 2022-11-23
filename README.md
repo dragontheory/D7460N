@@ -4,11 +4,11 @@
 
 <p>&#160;</p>
 
-<h1 align="right">&#8759; Features //</h1>
+<h1 align="right">Features //</h1>
  
 <p>&#160;</p>
 
-<h2 align="right">&#8759; End-users //</h2>
+<h2 align="right">End-users //</h2>
 
 <ul>
   <li>Professional/minimal look/feel</li>
@@ -25,7 +25,7 @@
 
 <p>&#160;</p>
 
-<h2 align="right">&#8759; Developers //</h2>
+<h2 align="right">Developers //</h2>
 
 <ul>
   <li>Pure CSS UI Template</li>
@@ -57,7 +57,7 @@
 
 <p>&#160;</p>
 
-<h2 align="right">&#8759; Governing Principles //</h2>
+<h2 align="right">Governing Principles //</h2>
 
 <ul>
  <li>Minimal clean professional look/feel</li>
@@ -99,3 +99,5 @@
    \ \________/\__/ \/_____/\__\/\_______/ \________/ \__\  \ \__\   \ \________/ \__\
     \/_______/\/_/         \/__/\/______/ \/_______/ \/__/   \/__/    \/_______/ \/__/
 </pre>
+
+<div align="right"><sub>&#8224;</sub>&#8224;<sub>&#8224;</sub></div>
