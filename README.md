@@ -53,3 +53,4 @@
 * Least Power (HTML first, CSS second, JS third, etc.)
 * Separation of Concerns (data from UI)
 * Minimal clean markup
+* Minimal clean look/feel
