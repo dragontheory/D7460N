@@ -76,9 +76,8 @@
   </li>
   <li>Separation of Concerns:
     <ul>
-      <li>Air gap separation between <b>UI</b> and related code (HTML/CSS) and <b>data</b> and related code (JS and or optional frameworks)
-       <br /><i><b>Meaning:</b> No data or business logic scripts in HTML</i></li>
-      <li>UI and related code from middle-tier and related code</li>
+      <li>Air gap separation between <b>UI</b> and related code (HTML/CSS) and <b>data</b> and related code (JS and or optional frameworks AKA Middle-tier)
+       <br /><i><b>Meaning:</b> No data/business logic in HTML/CSS</i></li>
       <li>Middle-tier and related code from back-end-tier and related code</li>
     </ul>
   </li>
