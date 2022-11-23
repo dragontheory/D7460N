@@ -1,6 +1,6 @@
 <div align="center"><img src="assets/images/logo.svg" width="50%" / title="D7460N UI" alt="D7460N UI"></div>
 
-<h3 align="center"><i>Your data your way.<br />Fast<br />Easy<br />Secure</i></h3>
+<h3 align="center"><i>Your data your way.<br />- Fast -<br />- Easy -<br />- Secure -</i></h3>
 
 <p>&#160;</p>
 
@@ -91,5 +91,4 @@
   \ \  \___\  \/   //\______   __  \_/\  \\  \___\  \\  \  " .  \   \ \  \___\  \\  \
    \ \________/\__/ \/_____/\__\/\_______/ \________/ \__\  \ \__\   \ \________/ \__\
     \/_______/\/_/         \/__/\/______/ \/_______/ \/__/   \/__/    \/_______/ \/__/
-
 </pre>
