@@ -1,14 +1,13 @@
 <div align="center"><img src="assets/images/logo.svg" width="50%" / title="D7460N UI" alt="D7460N UI"></div>
 
-<h3 align="center"><i>Your data your way.<br />- Fast -<br />- Easy -<br />- Secure -</i></h3>
+<h3 align="center"><i>Your data your way.<br /> Fast &#8226; Easy &#8226; Secure</i></h3>
 
 <p>&#160;</p>
 
-<h1>Features :</h1>
+<h1>Features &#8759;</h1>
  
-### End-users :
+<h2> End-users &#8759;</h2>
 
-<div style="text-indent: 50px;">
 <ul>
   <li>Professional/minimal look/feel</li>
   <li>Desktop keyboard accessible</li>
@@ -22,7 +21,9 @@
   <li>Optional full screen/Zen mode</li> 
 </ul>
 
-### Developers :
+<p>&#160;</p>
+
+<h2>Developers &#8759;</h2>
 
 <ul>
   <li>Pure CSS UI Template</li>
@@ -41,7 +42,7 @@
   <li>No compile process</li>
   <li>No server required</li>
   <li>Web Storage API</li>
-  <li>Modern CSS :
+  <li>Modern CSS &#8759;
     <ul>
       <li>:has() pseudo-class</li>
       <li>@layer (optional third party integration)
@@ -52,19 +53,21 @@
   </li>
 </ul>
 
-### Governing Development Principles/Approaches:
+<p>&#160;</p>
+
+<h2>Governing Development Principles/Approaches &#8759;</h2>
 
 <ul>
   <li>Minimal clean markup</li>
   <li>Minimal clean look/feel</li>
-  <li>Self-aware UI :
+  <li>Self-aware UI &#8759;
     <ul>
       <li>Buttons only fetch, push, and clear data</li>
      <li>UI detects and reacts [ <i>:has()</i> ] to when data is present</li>
       <li>Loading animation between button click and data fully loaded</li>
     </ul>
   </li>
-  <li>Least Power :
+  <li>Least Power &#8759;
     <ol>
       <li>Can it be done in HTML?</li>
       <li>Then can it be done in CSS?</li>
@@ -72,7 +75,7 @@
       <li>Then use more a powerful language</li>
     </ol>
   </li>
-  <li>Separation of Concerns :
+  <li>Separation of Concerns &#8759;
     <ul>
       <li>Air gap separation between <b>UI</b> and related code (HTML/CSS) and <b>data</b> and related code (JS and or optional frameworks AKA Middle-tier) <i><b>Meaning:</b> no data/business logic in HTML</i></li>
        <li>Business logic can now handled via modern CSS [ <i>:has()</i> ]</li>
@@ -80,7 +83,6 @@
     </ul>
   </li>
 </ul>
-</div>
 
 <p>&#160;</p>
 
