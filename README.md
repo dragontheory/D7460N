@@ -1,7 +1,6 @@
 <h1 align="center"><img src="assets/images/logo.svg" width="50%" /></h1>
 
 ```
-
  ________    ________   __     ______     ______  ___     ___      ___    ___ ___
 /\   ___ `\ /\____   \ /  `\  /  ____\  /' ____ `\\   -  /\  \    /\  \  /\  \\  \
 \ \  \  /\ `\/___/   //  _  \/\  \___/_/\  \  /\  \\    " .\  \   \ \  \ \ \  \\  \
@@ -63,8 +62,8 @@
   <li>Least Power:
     <ol>
       <li>Can it be done in HTML?</li>
-      <li>Can it be done in CSS?</li>
-      <li>Can it be done in JS?</li>
+      <li>Then can it be done in CSS?</li>
+      <li>Then can it be done in JS?</li>
       <li>etc.</li>
     </ol>
   </li>
