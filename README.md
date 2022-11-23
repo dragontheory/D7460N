@@ -62,7 +62,7 @@
   <li>Self-aware UI:
     <ul>
       <li>Buttons only fetch, push, and clear data</li>
-     <li>UI detects and reacts [ <i style="opacity: 0.3">:has()</i> ] to when data is present</li>
+     <li>UI detects and reacts [ <i>:has()</i> ] to when data is present</li>
       <li>Loading animation between button click and data fully loaded</li>
     </ul>
   </li>
@@ -77,7 +77,7 @@
   <li>Separation of Concerns:
     <ul>
       <li>Air gap separation between <b>UI</b> and related code (HTML/CSS) and <b>data</b> and related code (JS and or optional frameworks AKA Middle-tier) <i><b>Meaning:</b> no data/business logic in HTML</i></li>
-       <li>Business logic can now handled via modern CSS [ <i style="opacity: 0.3">:has()</i> ]</li>
+       <li>Business logic can now handled via modern CSS [ <i>:has()</i> ]</li>
       <li>Air gap separaton between middle-tier and related code from back-end-tier and related code</li>
     </ul>
   </li>
