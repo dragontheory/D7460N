@@ -11,13 +11,13 @@
 <div style="text-indent: 50px;">
 <ul>
   <li>Professional/minimal look/feel</li>
+  <li>Compatable with all screen sizes</li>
+  <li>Desktop keyboard accessible</li>
   <li>Optional configurable themes (light, dark, system)</li>
   <li>Optional configurable layouts (horizontal, vertical)</li>
   <li>Optional configurable UI density</li>
-  <li>Compatable with all screen sizes</li>
-  <li>Desktop keyboard accessible</li>
+  <li>Optional fullscreen/Zen mode</li> 
   <li>Mobile touch/swipe controls</li>
-  <li>Fullscreen/Zen mode</li>
 </ul>
 
 ### Developers :
