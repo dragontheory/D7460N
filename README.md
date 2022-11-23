@@ -54,7 +54,7 @@
   </li>
 </ul>
 
-### Developement Priciples:
+### Governing Developement Priciples/Approaches:
 
 <ul>
   <li>Minimal clean markup</li>
@@ -71,13 +71,13 @@
       <li>Can it be done in HTML?</li>
       <li>Then can it be done in CSS?</li>
       <li>Then can it be done in JS?</li>
-      <li>etc.</li>
+      <li>Then use more a powerful language</li>
     </ol>
   </li>
   <li>Separation of Concerns:
     <ul>
-      <li>Air gap separation between UI and related code (HTML/CSS) and Data and related code (JS and or optional frameworks)
-      <br />No data or business logic scripting in HTML/CSS</li>
+      <li>Air gap separation between <b>UI</b> and related code (HTML/CSS) and <b>data</b> and related code (JS and or optional frameworks)
+       <br /><i><b>Meaning:</b> No data or business logic scripts in HTML</i></li>
       <li>UI and related code from middle-tier and related code</li>
       <li>Middle-tier and related code from back-end-tier and related code</li>
     </ul>
