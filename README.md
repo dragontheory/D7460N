@@ -23,8 +23,6 @@
   <li>Optional full screen/Zen mode</li> 
 </ul>
 
-<p>&#160;</p>
-
 <h2 align="right">Developers //</h2>
 
 <ul>
@@ -46,16 +44,14 @@
   <li>Web Storage API</li>
   <li>Modern CSS &#8759;
     <ul>
-      <li>:has() pseudo-class</li>
-      <li>@layer (optional third party integration)
+      <li><code>:has()</code> pseudo-class</li>
+      <li><code>@layer</code> (optional third party integration)
       <li>container queries
       <li>custom elements
       <li>custom properties
     </ul>
   </li>
 </ul>
-
-<p>&#160;</p>
 
 <h2 align="right">Governing Principles //</h2>
 
@@ -65,7 +61,7 @@
   <li>Self-aware UI &#8759;
     <ul>
       <li>Buttons only fetch, push, and clear data</li>
-     <li>UI detects and reacts [ <i>:has()</i> ] to when data is present</li>
+     <li>UI detects and reacts [ <i><code>:has()</code></i> ] to when data is present</li>
       <li>Loading animation between button click and data fully loaded</li>
     </ul>
   </li>
@@ -80,7 +76,7 @@
   <li>Separation of Concerns &#8759;
     <ul>
       <li>Air gap separation between <b>UI</b> and related code (HTML/CSS) and <b>data</b> and related code (JS and or optional frameworks AKA Middle-tier) <i><b>Meaning:</b> no data/business logic in HTML</i></li>
-       <li>Business logic can now handled via modern CSS [ <i>:has()</i> ]</li>
+      <li>Business logic can now handled via modern CSS [ <i><code>:has()</code></i> ]</li>
       <li>Air gap separation between middle-tier and related code from back-end-tier and related code</li>
     </ul>
   </li>
