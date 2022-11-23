@@ -69,8 +69,9 @@
   </li>
   <li>Separation of Concerns:
     <ul>
-      <li>Data from UI</li>
-      <li>Presentation from middle-tier</li>
+      <li>Data and related code from UI and related code</li>
+      <li>UI and related code from middle-tier and related code</li>
+      <li>Middle-tier and related code from back-end-tier and related code</li>
     </ul>
   </li>
 </ul>
