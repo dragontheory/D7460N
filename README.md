@@ -14,11 +14,12 @@
 
 ### For end-users:
 
-* Professional minimal look/feel
+* Professional/minimal look/feel
 * User configurable themes
 * User configurable layouts
 * User configurable density
-* 
+* Works on all screen sizes
+* Fullscreen/Zen mode
 
 ### For developers:
 
@@ -32,7 +33,7 @@
 * Minimal/no classes
 * Data agnostic
 * JS Framework agnostic
-* Media platform agnostic
+* Media platform agnostic (responsive)
 * Browser agnostic
 * No build process
 * No compile process
@@ -42,3 +43,9 @@
   * @layer
   * custom elements
   * custom properties
+
+### Developement Priciples:
+
+* Separation of Concerns (data from UI)
+* Least Power (HTML first, CSS second, JS third, etc.)
+* Minimal markup 
