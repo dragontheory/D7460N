@@ -15,10 +15,12 @@
 ### For end-users:
 
 * Professional/minimal look/feel
-* User configurable themes
-* User configurable layouts
-* User configurable density
-* Works on all screen sizes
+* Optional configurable themes (light, dark, system)
+* Optional configurable layouts (horizontal, vertical)
+* Optional configurable UI density ()
+* Compatable with all screen sizes
+* Desktop keyboard accessible
+* Mobile touch/swipe controls
 * Fullscreen/Zen mode
 
 ### For developers:
@@ -38,14 +40,16 @@
 * No build process
 * No compile process
 * No server required
-* Modern 
-  * :has() 
-  * @layer
+* Web Storage API
+* Modern CSS:
+  * :has() pseudo-class
+  * @layer (optional third party integration)
+  * container queries
   * custom elements
   * custom properties
 
 ### Developement Priciples:
 
-* Separation of Concerns (data from UI)
 * Least Power (HTML first, CSS second, JS third, etc.)
-* Minimal markup 
+* Separation of Concerns (data from UI)
+* Minimal clean markup
