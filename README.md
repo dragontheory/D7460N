@@ -61,7 +61,7 @@
   <li>Minimal clean look/feel</li>
   <li>Self-aware UI:
     <ul>
-      <li>Buttons only fetch data</li>
+      <li>Buttons only fetches and clears data</li>
       <li>UI knows and reacts to when data is loaded</li>
       <li>Loading animation between button click and data fully loaded</li>
     </ul>
