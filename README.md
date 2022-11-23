@@ -77,7 +77,7 @@
   <li>Separation of Concerns:
     <ul>
       <li>Air gap separation between UI and related code (HTML/CSS) and Data and related code (JS and or optional frameworks)
-      <br />Zero data calls in the HTML/CSS</li>
+      <br />No data or business logic scripting in HTML/CSS</li>
       <li>UI and related code from middle-tier and related code</li>
       <li>Middle-tier and related code from back-end-tier and related code</li>
     </ul>
