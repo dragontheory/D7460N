@@ -11,13 +11,15 @@
 <div style="text-indent: 50px;">
 <ul>
   <li>Professional/minimal look/feel</li>
-  <li>Compatable with all screen sizes</li>
   <li>Desktop keyboard accessible</li>
+  <li>Desktop right click shortcuts</li>
+  <li>In context searchable help system</li>
+  <li>Mobile touch/swipe controls</li>
+  <li>Compatible with all screen sizes</li>
   <li>Optional configurable themes (light, dark, system)</li>
   <li>Optional configurable layouts (horizontal, vertical)</li>
   <li>Optional configurable UI density</li>
-  <li>Optional fullscreen/Zen mode</li> 
-  <li>Mobile touch/swipe controls</li>
+  <li>Optional full screen/Zen mode</li> 
 </ul>
 
 ### Developers :
@@ -50,7 +52,7 @@
   </li>
 </ul>
 
-### Governing Developement Priciples/Approaches:
+### Governing Development Principles/Approaches:
 
 <ul>
   <li>Minimal clean markup</li>
@@ -74,7 +76,7 @@
     <ul>
       <li>Air gap separation between <b>UI</b> and related code (HTML/CSS) and <b>data</b> and related code (JS and or optional frameworks AKA Middle-tier) <i><b>Meaning:</b> no data/business logic in HTML</i></li>
        <li>Business logic can now handled via modern CSS [ <i>:has()</i> ]</li>
-      <li>Air gap separaton between middle-tier and related code from back-end-tier and related code</li>
+      <li>Air gap separation between middle-tier and related code from back-end-tier and related code</li>
     </ul>
   </li>
 </ul>
