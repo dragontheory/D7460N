@@ -59,6 +59,10 @@
 <ul>
   <li>Minimal clean markup</li>
   <li>Minimal clean look/feel</li>
+  <li>Self-aware UI:
+    <br />Buttons only fetch data 
+    <br />UI knows and reacts to when data is loaded
+  </li>
   <li>Least Power:
     <ol>
       <li>Can it be done in HTML?</li>
@@ -69,7 +73,8 @@
   </li>
   <li>Separation of Concerns:
     <ul>
-      <li>Data and related code from UI and related code</li>
+      <li>Air gap separation between UI and related code (HTML/CSS) and Data and related code (JS and or optional frameworks)
+      <br />Zero data calls in the HTML/CSS</li>
       <li>UI and related code from middle-tier and related code</li>
       <li>Middle-tier and related code from back-end-tier and related code</li>
     </ul>
