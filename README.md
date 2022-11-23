@@ -1,7 +1,7 @@
 <div align="center"><img src="assets/images/logo.svg" width="50%" / title="D7460N UI" alt="D7460N UI" /></div>
 
 <h2 align="center">
- <i><i>Your data your way. &#160;&#9136;&#9136;&#160; Fast &#8226; Easy &#8226; Secure</i></i>
+ <i><i>Your data your way. &#160;&#160;&#160;&#9136;&#9136;&#160;&#160;&#160; Fast &#8226; Easy &#8226; Secure</i></i>
  <p>&#160;</p>
  <p>&#160;</p>
  <p>&#160;</p>
