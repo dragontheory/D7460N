@@ -11,11 +11,11 @@
 
 <p>&#160;</p>
 
-<h2 align="right">Features /</h2>
+<h2 align="right">/ Features</h2>
  
 <p>&#160;</p>
 
-<h2 align="right">End-users //</h2>
+<h2 align="right">// End-users</h2>
 
 <ul>
   <li>Professional/minimal look/feel</li>
@@ -30,7 +30,7 @@
   <li>Optional full screen/Zen mode</li> 
 </ul>
 
-<h2 align="right">Developers //</h2>
+<h2 align="right">// Developers</h2>
 
 <ul>
   <li>Pure CSS UI Template</li>
@@ -60,7 +60,7 @@
   </li>
 </ul>
 
-<h2 align="right">Governing Principles ///</h2>
+<h2 align="right">/// Governing Principles</h2>
 
 <ul>
  <li>Minimal clean professional look/feel</li>
@@ -77,7 +77,7 @@
       <li>Can it be done in HTML?</li>
       <li>Then can it be done in CSS?</li>
       <li>Then can it be done in JS?</li>
-      <li>Then use more a powerful language</li>
+      <li>Then use more a powerful language?</li>
     </ol>
   </li>
   <li>Separation of Concerns &#8759;
