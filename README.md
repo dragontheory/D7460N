@@ -83,7 +83,7 @@
   <li>Separation of Concerns &#8759;
     <ul>
       <li>Air gap separation between <b>UI</b> and related code (HTML/CSS) and <b>data</b> and related code (JS and or optional frameworks AKA Middle-tier) <i><b>Meaning:</b> no data/business logic in HTML</i></li>
-      <li>Business logic can now handled via modern CSS [ <i><code>:has()</code></i> ]</li>
+      <li>Business logic is now handled via modern CSS [ <i><code>:has()</code></i> ]</li>
       <li>Air gap separation between middle-tier and related code from back-end-tier and related code</li>
     </ul>
   </li>
