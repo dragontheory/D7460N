@@ -27,7 +27,7 @@ body {padding: 0; margin: 0;}
   --bg-active: 255,255,255,0.05;
   --bg-accent: 48,190,255,0.5;
   --bg-grd: linear-gradient(180deg, 
-	        rgba(50,70,80,0.9) 0, 
+            rgba(50,70,80,0.9) 0, 
             #0d101b 100%);
   --txt-color: 255,255,255,0.7;
   --txt-active: 255,255,255,1.0;
@@ -82,6 +82,22 @@ app-container {
   overflow: hidden;
 }
 
+/* @media (max-width: 800px) {
+  app-container {
+    grid-template-rows: auto auto 1fr minmax(1rem, 7rem) minmax(1rem, 7rem);
+    grid-template-columns: unset;
+  }
+  nav > panel-list {
+        grid-auto-flow: column !important;
+  }
+  main {
+    margin: -1rem 0 0 0 !important;
+  }
+  nav header, aside header, aside-2 header {
+    display: none !important;
+ }
+} */
+
 /* ALL PANELS */
 app-container > * {
   display: grid;
@@ -104,7 +120,7 @@ nav {
   justify-content: var(--nav-justify-content);
 }
 
-nav > panel-list {grid-auto-flow: var(--tab-grid-auto-flow)}
+nav > panel-list {grid-auto-flow: var(--tab-grid-auto-flow);}
 
 nav label {border-radius: var(--nav-border-radius);}
 
@@ -121,7 +137,7 @@ demo-buttons,
 main {
   margin-block: var(--main-margin-block);
   margin-inline: var(--main-margin-inline);
-  /* ize: var(--main-resize-h); */
+  /* resize: var(--main-resize-h); */
 }
 
 
@@ -190,7 +206,7 @@ panel-tab {
 /* Scrollable */
 panel-list {
   display: grid;
-  overflow: auto;
+  overflow: overlay;
 }
 
 list-cell {padding: .5rem 1rem;}
