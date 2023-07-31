@@ -78,7 +78,7 @@ app-container {
   grid-template-columns: var(--app-container-grid-template-columns);
   gap: var(--grid-gap);
   padding: 1rem;
-  height: 100vh; /* push HEADER/FOOTER to the top/bottom of viewport */
+  height: 100dvh; /* push HEADER/FOOTER to the top/bottom of viewport */
   overflow: hidden;
 }
 
@@ -241,7 +241,7 @@ html:before {
   top: 0;
   left: 0;
   right: 0;
-  height: 100vh;
+  height: 100dvh;
   z-index: -5;
   background: var(--bg-grd);
 }
@@ -251,7 +251,7 @@ body:before {
   top: 0;
   left: 0;
   right: 0;
-  height: 100vh;
+  height: 100dvh;
   background-attachment: initial;
   background-color: transparent;
   background-image: url('https://d7460n-app-with-resizer.pages.dev/assets/images/pattern.png');
@@ -266,7 +266,7 @@ html:after {
   left: 0;
   right: 0;
   z-index: -10;
-  height: 100vh;
+  height: 100dvh;
   background-color: rgba(var(--bg-02));
   background-image: url('https://d7460n-app-with-resizer.pages.dev/assets/images/logo.svg');
   background-repeat: no-repeat;
